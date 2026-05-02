@@ -1,20 +1,20 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Johnson Wuraola — Freelance Web Developer",
-  "alternateName": "WuraolaJohnson Dev",
+  "name": "Worknoon",
   "url": "https://devportfolio.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://devportfolio.com/wp-content/uploads/logo.png",
+    "url": "https://devportfolio.com/wp-content/uploads/worknoon-logo.png",
     "width": 400,
     "height": 100
   },
-  "description": "Professional freelance web developer specializing in WordPress website development, Elementor landing pages, speed optimization, and technical SEO for businesses and individuals.",
+  "description": "Worknoon is a professional web development and digital services organization specializing in WordPress development, Elementor landing pages, SEO optimization, and online business solutions.",
   "email": "hello@devportfolio.com",
+  "foundingDate": "2022",
   "contactPoint": {
     "@type": "ContactPoint",
-    "contactType": "Customer Support",
+    "contactType": "Customer Service",
     "email": "hello@devportfolio.com",
     "availableLanguage": ["English"]
   },
@@ -22,60 +22,47 @@
     "@type": "PostalAddress",
     "addressCountry": "NG"
   },
-  "foundingDate": "2022",
-  "numberOfEmployees": {
-    "@type": "QuantitativeValue",
-    "value": 1
+  "sameAs": [
+    "https://github.com/WuraolaJohnson"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Johnson Wuraola"
   },
   "knowsAbout": [
     "WordPress Development",
     "Elementor Page Builder",
     "Search Engine Optimization",
     "Web Performance Optimization",
-    "PHP",
-    "MySQL",
-    "HTML5",
-    "CSS3",
-    "JavaScript"
+    "Technical SEO",
+    "Google Analytics"
   ],
-  "serviceArea": {
-    "@type": "Place",
-    "name": "Worldwide (Remote)"
-  },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Web Development Services",
+    "name": "Worknoon Services",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
           "name": "WordPress Website Development",
-          "description": "Full WordPress site setup, theme customization, plugin configuration, and deployment."
+          "description": "Custom WordPress websites built with Elementor, optimized for speed and SEO."
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Elementor Landing Page Design",
-          "description": "High-converting, mobile-responsive landing pages built with Elementor."
+          "name": "Landing Page Design",
+          "description": "High-converting, mobile-responsive landing pages tailored to business goals."
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Website Speed Optimization",
-          "description": "Core Web Vitals improvement, caching, image optimization, and performance auditing."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Technical SEO",
-          "description": "Structured data implementation, on-page SEO, sitemap setup, and Google Search Console management."
+          "name": "SEO & Analytics Setup",
+          "description": "Structured data implementation, on-page SEO, Google Analytics GA4 integration."
         }
       }
     ]

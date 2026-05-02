@@ -4,18 +4,43 @@
   "name": "Johnson Wuraola",
   "givenName": "Johnson",
   "familyName": "Wuraola",
-  "jobTitle": "Freelance Web Developer",
-  "description": "Johnson Wuraola is a freelance web developer specializing in WordPress, Elementor, and technical SEO. He builds high-performance, mobile-responsive websites and landing pages for businesses and individuals worldwide.",
+  "jobTitle": "Founder",
+  "description": "Johnson Wuraola is the Founder of Worknoon, a web development organization specializing in WordPress, Elementor, and technical SEO solutions.",
   "url": "https://devportfolio.com",
   "image": {
     "@type": "ImageObject",
     "url": "https://devportfolio.com/wp-content/uploads/johnson-wuraola.jpg",
-    "caption": "Johnson Wuraola — Freelance Web Developer"
+    "caption": "Johnson Wuraola — Founder, Worknoon"
   },
   "email": "hello@devportfolio.com",
   "nationality": {
     "@type": "Country",
     "name": "Nigeria"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Founder & Web Developer",
+    "occupationLocation": {
+      "@type": "Country",
+      "name": "Nigeria"
+    },
+    "responsibilities": [
+      "Leading WordPress website strategy and development",
+      "Elementor landing page design and deployment",
+      "Technical SEO and structured data implementation",
+      "Google Analytics setup and performance tracking",
+      "Client consultation and project delivery"
+    ],
+    "skills": "WordPress, Elementor, PHP, MySQL, HTML, CSS, JavaScript, SEO, Google Analytics, JSON-LD"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Worknoon",
+    "url": "https://devportfolio.com"
+  },
+  "founder": {
+    "@type": "Organization",
+    "name": "Worknoon"
   },
   "knowsAbout": [
     "WordPress",
@@ -27,36 +52,9 @@
     "JavaScript",
     "Search Engine Optimization",
     "Google Analytics",
-    "Web Performance Optimization",
-    "Yoast SEO",
-    "WPForms",
-    "Responsive Web Design",
-    "JSON-LD Structured Data"
+    "JSON-LD Structured Data",
+    "Web Performance Optimization"
   ],
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Freelance Web Developer",
-    "occupationLocation": {
-      "@type": "Country",
-      "name": "Nigeria"
-    },
-    "responsibilities": [
-      "WordPress website development and customization",
-      "Elementor landing page design",
-      "Website speed and performance optimization",
-      "Technical SEO implementation",
-      "Google Analytics setup and reporting",
-      "Plugin configuration and management"
-    ],
-    "skills": "WordPress, Elementor, PHP, MySQL, HTML, CSS, JavaScript, SEO, Google Analytics"
-  },
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Self-Employed / Freelance",
-    "url": "https://devportfolio.com"
-  },
-  "alumniOf": [],
-  "award": [],
   "sameAs": [
     "https://github.com/WuraolaJohnson"
   ]

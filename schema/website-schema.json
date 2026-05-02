@@ -4,13 +4,13 @@
     {
       "@type": "WebSite",
       "@id": "https://devportfolio.com/#website",
-      "name": "Johnson Wuraola — Freelance Web Developer",
-      "alternateName": "DevPortfolio",
+      "name": "Worknoon",
+      "alternateName": "Worknoon — Web Development & Digital Services",
       "url": "https://devportfolio.com",
-      "description": "Professional portfolio and services website of Johnson Wuraola, freelance web developer specializing in WordPress, Elementor, and technical SEO.",
+      "description": "Worknoon is a professional web development organization offering WordPress development, Elementor landing pages, SEO optimization, and digital services.",
       "inLanguage": "en-US",
       "publisher": {
-        "@id": "https://devportfolio.com/#person"
+        "@id": "https://devportfolio.com/#organization"
       },
       "potentialAction": {
         "@type": "SearchAction",
@@ -22,42 +22,43 @@
       }
     },
     {
-      "@type": "ImageObject",
-      "@id": "https://devportfolio.com/#logo",
-      "url": "https://devportfolio.com/wp-content/uploads/logo.png",
-      "contentUrl": "https://devportfolio.com/wp-content/uploads/logo.png",
-      "caption": "Johnson Wuraola — Freelance Web Developer Logo",
-      "inLanguage": "en-US",
-      "width": 400,
-      "height": 100
-    },
-    {
-      "@type": "Person",
-      "@id": "https://devportfolio.com/#person",
-      "name": "Johnson Wuraola",
+      "@type": "Organization",
+      "@id": "https://devportfolio.com/#organization",
+      "name": "Worknoon",
       "url": "https://devportfolio.com",
       "logo": {
         "@id": "https://devportfolio.com/#logo"
       },
-      "image": {
-        "@id": "https://devportfolio.com/#logo"
+      "founder": {
+        "@type": "Person",
+        "name": "Johnson Wuraola"
       },
       "sameAs": [
         "https://github.com/WuraolaJohnson"
       ]
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://devportfolio.com/#logo",
+      "url": "https://devportfolio.com/wp-content/uploads/worknoon-logo.png",
+      "contentUrl": "https://devportfolio.com/wp-content/uploads/worknoon-logo.png",
+      "caption": "Worknoon Logo",
+      "inLanguage": "en-US",
+      "width": 400,
+      "height": 100
+    },
+    {
       "@type": "WebPage",
       "@id": "https://devportfolio.com/#webpage",
       "url": "https://devportfolio.com",
-      "name": "Johnson Wuraola — Freelance Web Developer & WordPress Expert",
+      "name": "Worknoon — Professional WordPress Development & Digital Services",
       "isPartOf": {
         "@id": "https://devportfolio.com/#website"
       },
       "about": {
-        "@id": "https://devportfolio.com/#person"
+        "@id": "https://devportfolio.com/#organization"
       },
-      "description": "Hire Johnson Wuraola, a freelance web developer specializing in WordPress, Elementor landing pages, and technical SEO. Explore services, portfolio, and get in touch.",
+      "description": "Worknoon delivers expert WordPress websites, Elementor landing pages, and SEO services. Founded by Johnson Wuraola.",
       "inLanguage": "en-US",
       "datePublished": "2026-01-01",
       "dateModified": "2026-05-02",

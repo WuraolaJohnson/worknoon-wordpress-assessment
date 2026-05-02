@@ -46,8 +46,15 @@ wp-content/plugins/wordpress-seo/
 wp-content/plugins/akismet/
 wp-content/plugins/classic-editor/
 
-# However, DO commit: custom or premium plugins not on wordpress.org
-# Example: wp-content/plugins/my-custom-plugin/ — add with: git add -f
+# ============================================
+# Committed Plugins (assessment-relevant)
+# ============================================
+# ht-mega-for-elementor — committed intentionally.
+# This Elementor addon was required to resolve Contact Form 7
+# styling conflicts inside the Elementor page builder.
+# It represents the key plugin decision made during this build.
+!wp-content/plugins/ht-mega-for-elementor/
+!wp-content/plugins/plugins.md
 
 # ============================================
 # Log Files
