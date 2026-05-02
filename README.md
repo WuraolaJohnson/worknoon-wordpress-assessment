@@ -1,5 +1,5 @@
-# 🌐 Worknoon WordPress Developer Assessment
-### Submitted by: Johnson Wuraola | GitHub: [@WuraolaJohnson](https://github.com/WuraolaJohnson)
+
+### By: Johnson Wuraola | GitHub: [@WuraolaJohnson](https://github.com/WuraolaJohnson)
 
 ---
 
@@ -14,27 +14,12 @@
 
 This repository documents the complete development of a **freelance web developer portfolio and services landing page**, built with WordPress and Elementor as part of the Worknoon WordPress Developer Technical Assessment.
 
-The site — hosted at **[https://devportfolio.com](https://devportfolio.com)** — serves as a professional digital presence for Johnson Wuraola, showcasing skills, services, client testimonials, and a direct contact interface for potential clients.
-
-### 🎯 Assessment Objectives Fulfilled
-
-| Requirement | Status |
-|-------------|--------|
-| Hero section with CTA | ✅ Completed |
-| Services section | ✅ Completed |
-| Testimonials section | ✅ Completed |
-| Contact form with plugin | ✅ Completed |
-| Mobile responsiveness | ✅ Completed |
-| Basic speed optimization | ✅ Completed |
-| Google Analytics integration | ✅ Completed |
-| SEO & Schema markup | ✅ Completed |
-| Knowledge panel strategy | ✅ Documented |
+The site serves as a professional digital presence for Johnson Wuraola, showcasing skills, services, client testimonials, and a direct contact interface for potential clients.
 
 ---
 
-## 🚀 Live Site
+##  Site
 
-> **URL:** [https://devportfolio.com](https://devportfolio.com)  
 > **Platform:** WordPress (Self-hosted)  
 > **Builder:** Elementor Page Builder  
 
@@ -54,7 +39,7 @@ The site — hosted at **[https://devportfolio.com](https://devportfolio.com)** 
 | Plugin | Purpose |
 |--------|---------|
 | **Elementor** | Visual page builder for all sections |
-| **WPForms Lite** | Contact form implementation |
+| **Contact Form 7** | Contact form implementation |
 | **Elementor Forms Styler** / Custom CSS Plugin | Resolved contact form styling issues |
 | **Yoast SEO** | On-page SEO optimization & sitemap |
 | **WP Super Cache** | Page caching & speed optimization |
@@ -66,7 +51,7 @@ The site — hosted at **[https://devportfolio.com](https://devportfolio.com)** 
 - **HTML5** — semantic page structure
 - **CSS3** — custom styling via Elementor + theme CSS
 - **JavaScript** — Elementor interactions & animations
-- **Google Fonts** — typography (Inter, Poppins)
+- **Google Fonts** — typography (Tahoma, Poppins)
 
 ### SEO & Schema
 - **Yoast SEO** — meta tags, Open Graph, XML sitemap
@@ -145,8 +130,8 @@ WordPress Admin → Plugins → Add New → Search & install:
                        │
 ┌──────────────────────▼──────────────────────────────────┐
 │                  WORDPRESS CORE (CMS)                    │
-│   Theme: Astra/Hello Elementor | Plugin Architecture     │
-│   Yoast SEO | WPForms | WP Super Cache | Smush          │
+│   Theme: Hello Elementor | Plugin Architecture     │
+│   Yoast SEO | Contact Form 7 | WP Super Cache | Smush          │
 └──────────────────────┬──────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────┐
@@ -190,12 +175,11 @@ All schemas follow [Schema.org](https://schema.org) standards and can be validat
 ## 🚧 Challenges Encountered & Solutions
 
 ### Challenge 1: Contact Form Plugin Styling Conflict
-**Problem:** After installing WPForms Lite, the contact form rendered correctly but inherited conflicting styles from the Elementor theme wrapper, making input fields unstyled and visually broken on the landing page.
+**Problem:** I had no access to form styling
 
-**Solution:** Installed an additional CSS customization plugin to target WPForms-specific classes (`wpforms-field-container`, `wpforms-submit`) and applied custom styling that matched the portfolio's design system. Also used Elementor's Custom CSS panel to apply scoped overrides.
+**Solution:** Installed plugins for adding forms 
 
-**Lesson:** Third-party form plugins often require explicit style resets or a bridge plugin when used inside Elementor. Always test form rendering in both the Elementor editor and live preview.
-
+**Lesson:** I did not need to pay for the full version of elementor to get what i needed done
 ---
 
 ### Challenge 2: Mobile Responsiveness Breakpoint Gaps
@@ -222,22 +206,21 @@ All schemas follow [Schema.org](https://schema.org) standards and can be validat
 ## 🧠 Section F: System Thinking & Project Reflection
 
 ### 📋 Overview of the Problem
-The objective was to build a high-performance, SEO-optimized landing page for a freelance web developer that functions not just as a visual portfolio, but as a robust digital entity recognizable by search engines. The primary challenge was balancing the visual flexibility of a page builder (Elementor) with strict performance and technical SEO requirements.
+The objective was to build a landing page for a freelance web developer that functions not just as a visual portfolio, but also as a means to connection between customers and the developer . The primary challenge was getting the contact form styling correctly.
 
 ### 🏗️ Approach (Architecture & Tools)
 I chose a **modular WordPress architecture**:
 - **Core:** WordPress 6.x for content management.
 - **Visual:** Hello Elementor (Theme) + Elementor (Builder) for a lean frontend baseline.
-- **Technical SEO:** Yoast SEO + JSON-LD for structured data mapping.
 - **Optimization:** A combination of server-side caching (WP Super Cache) and asset optimization (Smush).
 
 ### ⚖️ Key Decisions & Tradeoffs
 - **Elementor vs. Gutenberg:** I chose Elementor despite its slightly higher DOM weight because of its superior "Design-to-Live" speed and robust responsive controls, which allowed me to hit the 72-hour deadline while maintaining high aesthetic quality.
-- **WPForms Lite:** Selected for its simplicity and security, even though it required custom CSS bridging to match the theme.
+- **Contact Form 7:** Selected for its flexibility and cost.
 - **JSON-LD manually vs. Plugin:** I decided to manually generate and document the schemas rather than relying solely on plugins to ensure 100% compliance with the Worknoon-specific branding requirements.
 
 ### 🚧 Challenges & Resolution
-The biggest technical hurdle was the **Contact Form 7 / WPForms styling conflict**. Third-party widgets often inject styles that clash with the "Hello" theme's minimalist CSS. I resolved this by utilizing the **HT Mega Addon** and scoped custom CSS to normalize the input fields, ensuring a seamless UI without bloating the global stylesheet.
+The biggest technical hurdle was the **Contact Form 7 conflict**. Third-party widgets often inject styles that clash with the "Hello" theme's minimalist CSS. I resolved this by utilizing the **HT Mega Addon** and scoped custom CSS to normalize the input fields, ensuring a seamless UI without bloating the global stylesheet.
 
 ### 🔗 Affiliate Tracking & Onboarding (FirstPromoter)
 For a scaling freelance agency or service-based business like Worknoon, implementing tools like **FirstPromoter** (or similar affiliate trackers) is vital for growth.
@@ -253,7 +236,6 @@ If I were to rebuild this project today:
 
 ---
 
----
 
 ## 📁 Repository Structure
 
@@ -296,4 +278,4 @@ This project was created as part of a technical assessment for Worknoon.
 
 ---
 
-*Built with ❤️ using WordPress + Elementor*
+*Built using WordPress + Elementor*

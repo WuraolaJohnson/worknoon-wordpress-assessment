@@ -58,3 +58,4 @@ The rule of thumb: If you need more than 5-10 similar items that share the same 
 **Asset CleanUp** – Lets you unload CSS/JS files on pages where they aren't needed (prevents plugins from loading everywhere).
 
 Why they work: Speed optimization is about reducing file sizes, fewer HTTP requests, and smarter caching. These plugins target the three biggest bottlenecks: images (largest files), CSS/JS (blocking rendering), and database queries (slow server response).
+
