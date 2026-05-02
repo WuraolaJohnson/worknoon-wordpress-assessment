@@ -1,0 +1,125 @@
+# WordPress + GitHub .gitignore
+# worknoon-wordpress-assessment | Johnson Wuraola
+
+# ============================================
+# ⚠️  CRITICAL — NEVER COMMIT THESE
+# ============================================
+
+# WordPress config (contains DB credentials)
+wp-config.php
+
+# User-uploaded media files (too large, use external storage or Git LFS)
+wp-content/uploads/
+
+# WordPress cache files (auto-generated)
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/upgrade/
+
+# ============================================
+# WordPress Core (available from wordpress.org)
+# ============================================
+wp-admin/
+wp-includes/
+wp-*.php
+!wp-config-sample.php
+index.php
+xmlrpc.php
+license.txt
+readme.html
+
+# ============================================
+# Free Plugins (available on wordpress.org)
+# ============================================
+# List them in README.md instead of committing
+wp-content/plugins/elementor/
+wp-content/plugins/yoast-seo/
+wp-content/plugins/woocommerce/
+wp-content/plugins/wordfence/
+wp-content/plugins/wp-super-cache/
+wp-content/plugins/smush/
+wp-content/plugins/google-site-kit/
+wp-content/plugins/wpforms-lite/
+wp-content/plugins/contact-form-7/
+wp-content/plugins/wordpress-seo/
+wp-content/plugins/akismet/
+wp-content/plugins/classic-editor/
+
+# However, DO commit: custom or premium plugins not on wordpress.org
+# Example: wp-content/plugins/my-custom-plugin/ — add with: git add -f
+
+# ============================================
+# Log Files
+# ============================================
+*.log
+debug.log
+error.log
+wp-content/debug.log
+
+# ============================================
+# Sensitive Files
+# ============================================
+credentials.txt
+*.pem
+*.key
+*.env
+.env
+.env.local
+.env.production
+
+# ============================================
+# OS Generated Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# IDE / Editor Files
+# ============================================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.editorconfig
+
+# ============================================
+# Node / Build Tools (if using any frontend build)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+dist/
+build/
+
+# ============================================
+# Composer (PHP dependency manager)
+# ============================================
+vendor/
+composer.lock
+
+# ============================================
+# Backup Files
+# ============================================
+*.sql.gz
+*.zip
+*.tar.gz
+wp-content/backups/
+updraft/
+wp-content/updraft/
+
+# ============================================
+# WordPress Temp / Misc
+# ============================================
+wp-content/upgrade/
+*.bak
+*.swp
+*~

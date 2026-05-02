@@ -1,0 +1,77 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://devportfolio.com/#website",
+      "name": "Johnson Wuraola — Freelance Web Developer",
+      "alternateName": "DevPortfolio",
+      "url": "https://devportfolio.com",
+      "description": "Professional portfolio and services website of Johnson Wuraola, freelance web developer specializing in WordPress, Elementor, and technical SEO.",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://devportfolio.com/#person"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://devportfolio.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://devportfolio.com/#logo",
+      "url": "https://devportfolio.com/wp-content/uploads/logo.png",
+      "contentUrl": "https://devportfolio.com/wp-content/uploads/logo.png",
+      "caption": "Johnson Wuraola — Freelance Web Developer Logo",
+      "inLanguage": "en-US",
+      "width": 400,
+      "height": 100
+    },
+    {
+      "@type": "Person",
+      "@id": "https://devportfolio.com/#person",
+      "name": "Johnson Wuraola",
+      "url": "https://devportfolio.com",
+      "logo": {
+        "@id": "https://devportfolio.com/#logo"
+      },
+      "image": {
+        "@id": "https://devportfolio.com/#logo"
+      },
+      "sameAs": [
+        "https://github.com/WuraolaJohnson"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://devportfolio.com/#webpage",
+      "url": "https://devportfolio.com",
+      "name": "Johnson Wuraola — Freelance Web Developer & WordPress Expert",
+      "isPartOf": {
+        "@id": "https://devportfolio.com/#website"
+      },
+      "about": {
+        "@id": "https://devportfolio.com/#person"
+      },
+      "description": "Hire Johnson Wuraola, a freelance web developer specializing in WordPress, Elementor landing pages, and technical SEO. Explore services, portfolio, and get in touch.",
+      "inLanguage": "en-US",
+      "datePublished": "2026-01-01",
+      "dateModified": "2026-05-02",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://devportfolio.com"
+          }
+        ]
+      }
+    }
+  ]
+}

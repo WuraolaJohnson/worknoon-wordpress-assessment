@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Johnson Wuraola — Freelance Web Developer",
+  "alternateName": "WuraolaJohnson Dev",
+  "url": "https://devportfolio.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://devportfolio.com/wp-content/uploads/logo.png",
+    "width": 400,
+    "height": 100
+  },
+  "description": "Professional freelance web developer specializing in WordPress website development, Elementor landing pages, speed optimization, and technical SEO for businesses and individuals.",
+  "email": "hello@devportfolio.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Customer Support",
+    "email": "hello@devportfolio.com",
+    "availableLanguage": ["English"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "NG"
+  },
+  "foundingDate": "2022",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+  },
+  "knowsAbout": [
+    "WordPress Development",
+    "Elementor Page Builder",
+    "Search Engine Optimization",
+    "Web Performance Optimization",
+    "PHP",
+    "MySQL",
+    "HTML5",
+    "CSS3",
+    "JavaScript"
+  ],
+  "serviceArea": {
+    "@type": "Place",
+    "name": "Worldwide (Remote)"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Web Development Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "WordPress Website Development",
+          "description": "Full WordPress site setup, theme customization, plugin configuration, and deployment."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Elementor Landing Page Design",
+          "description": "High-converting, mobile-responsive landing pages built with Elementor."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Website Speed Optimization",
+          "description": "Core Web Vitals improvement, caching, image optimization, and performance auditing."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Technical SEO",
+          "description": "Structured data implementation, on-page SEO, sitemap setup, and Google Search Console management."
+        }
+      }
+    ]
+  }
+}
